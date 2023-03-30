@@ -1,6 +1,6 @@
 {
   "name": "fp-ts-do",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Do-notation implemented with generators for fp-ts ecosystem.",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",

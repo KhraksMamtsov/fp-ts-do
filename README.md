@@ -21,5 +21,5 @@ Do(RTE.Monad)(function* ($) {
   const a = yield* $(MyRTENumber); // RTE<{n: number}, 0, 1>
   const b = yield* $(MyRTEString); // RTE<{s: string}, 'L', 'R'>
   return [a, b];
-}); // Either<{n: number;} & {s: string;}, 0 | 'L', [1, 'R']>
+}); // RTE<{n: number;} & {s: string;}, 0 | 'L', [1, 'R']>
 ```
